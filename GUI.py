@@ -18,9 +18,6 @@ st.subheader("this is subheader")
 
 st.text_input(label ="Enter a todo", placeholder="enter a todo",on_change=func,key ="mykey")
 
-
-
-
 for index,todo in enumerate(todos):
     checkbox = st.checkbox(todo, key=f"{todo}_{index}")
     if checkbox:
