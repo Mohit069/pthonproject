@@ -7,8 +7,8 @@ def func():
     todos.append(todo+"\n")
     functions.writeList(todos)
     st.session_state["mykey"] = ""
-st.title("This is Mytodoapp")
-st.subheader("this is subheader")
+st.title("Welcome to my Todo App")
+# st.subheader("")
 
 
 # i = 5
